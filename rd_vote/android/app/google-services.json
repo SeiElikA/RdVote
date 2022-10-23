@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "274292413711",
+    "firebase_url": "https://rdvote-22284-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "rdvote-22284",
+    "storage_bucket": "rdvote-22284.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274292413711:android:0cad1f21d130eaf1845a7a",
+        "android_client_info": {
+          "package_name": "com.seielika.rd_vote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274292413711-upfqtbe2dum0v8gq17kfhcmi4lhq5ei4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zVwnCuP8zL5e-Rx7bTG8Ip0V3G5cHu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274292413711-upfqtbe2dum0v8gq17kfhcmi4lhq5ei4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "274292413711-c5594ehklh5d3v60dr10tgeblo48p8p3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rdVote"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274292413711:android:fe77b8331bf909da845a7a",
+        "android_client_info": {
+          "package_name": "com.seielika.rdvote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "274292413711-43k8j5noeqho7c9fr00914e4ik4od6bv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seielika.rdvote",
+            "certificate_hash": "65c79f1edf2e978a4641cdb1b94a19b5464b697a"
+          }
+        },
+        {
+          "client_id": "274292413711-irf3mbo6g9voljl0tsinooq1lbtd3q9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seielika.rdvote",
+            "certificate_hash": "6024e11182c4174d372eb6198518d0675392734e"
+          }
+        },
+        {
+          "client_id": "274292413711-upfqtbe2dum0v8gq17kfhcmi4lhq5ei4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zVwnCuP8zL5e-Rx7bTG8Ip0V3G5cHu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "274292413711-upfqtbe2dum0v8gq17kfhcmi4lhq5ei4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "274292413711-c5594ehklh5d3v60dr10tgeblo48p8p3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.rdVote"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
