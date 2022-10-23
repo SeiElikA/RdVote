@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:rd_vote/utils/colors.dart';
 import 'package:rd_vote/view_model/login_view_model.dart';
 import 'package:rd_vote/views/login_page.dart';
 import 'firebase_options.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'RdVote',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: MaterialColor(0xFF7296C8, myColor.colors),
       ),
       home: const LoginPage(),
     );
