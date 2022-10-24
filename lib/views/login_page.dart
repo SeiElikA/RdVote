@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
@@ -38,7 +39,6 @@ class _LoginPageState extends State<LoginPage> {
 
     return Scaffold(
       backgroundColor: Colors.white,
-      resizeToAvoidBottomInset: false,
       body: SafeArea(
         child: SingleChildScrollView(
           physics: BouncingScrollPhysics(),
@@ -91,6 +91,7 @@ class _LoginPageState extends State<LoginPage> {
                     viewModel.loginClick(context);
                   },
                   style: TextButton.styleFrom(
+                      foregroundColor: Colors.white,
                       minimumSize: Size(double.infinity, 48),
                       backgroundColor: myColor.mainColor,
                       shape: RoundedRectangleBorder(

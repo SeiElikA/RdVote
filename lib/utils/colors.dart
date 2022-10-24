@@ -5,6 +5,7 @@ extension myColor on Colors {
     static const textHintColor = Color(0xff8AA7CF);
     static const hintColor = Color(0xffC4C4C4);
     static const secondColor = Color(0xffEEF9FF);
+    static const errorColor = Color(0xfff26671);
 
     static Map<int, Color> colors =
     {
