@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 import 'package:rd_vote/component/style.dart';
 import 'package:rd_vote/utils/colors.dart';
 import 'package:rd_vote/view_model/login_view_model.dart';
+import 'package:rd_vote/views/register_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -157,7 +158,9 @@ class _LoginPageState extends State<LoginPage> {
                       style: TextStyle(fontSize: 16),
                     ),
                     InkWell(
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.of(context).push(MaterialPageRoute(builder: (context) => RegisterPage()));
+                        },
                         child: Text("Register",
                             style: TextStyle(
                                 fontSize: 16, color: myColor.mainColor)))
